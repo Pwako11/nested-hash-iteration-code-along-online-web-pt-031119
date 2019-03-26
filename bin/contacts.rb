@@ -1,7 +1,11 @@
 #require_relative "../lib/contacts.rb"
 #require 'pry'
 
+<<<<<<< HEAD:bin/contacts.rb
 def contacts_hash(contacts, remove_strawberry)
+=======
+def contacts_hash(contacts)
+>>>>>>> af3ace98171695e79edf523ecaa35ec7ca72f928:bin/contacts
 
 contacts = {
    "Jon Snow" => {
@@ -15,7 +19,10 @@ contacts = {
      favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
    }
  }
+<<<<<<< HEAD:bin/contacts.rb
 def remove_strawberry(contacts)
+=======
+>>>>>>> af3ace98171695e79edf523ecaa35ec7ca72f928:bin/contacts
 contacts.each do |person, contact_details_hash|
   contact_details_hash.each do |attribute, data|
     if attribute == :favorite_ice_cream_flavors
